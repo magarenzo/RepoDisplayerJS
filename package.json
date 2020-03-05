@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/magarenzo/projectCarousel.js/issues"
   },
-  "homepage": "https://github.com/magarenzo/projectCarousel.js#readme"
+  "homepage": "https://github.com/magarenzo/projectCarousel.js#readme",
+  "dependencies": {
+    "github-scraper": "^6.8.0"
+  }
 }
