@@ -2,31 +2,37 @@ const githubScraper = require("github-scraper");
 const fs = require("fs");
 
 var url = "magarenzo";
-githubScraper(url, function(err, profileData) { // grab profile data of user specified in var url
-    if (err) console.log("githubScraper error on profileData: " + err);
+
+// grab profileData of user specified in url
+githubScraper(url, function(err, profileData) {
+    if (err) throw new Error("githubScraper error on profileData: " + err);
     else {
-        fs.writeFile("profileData.json", JSON.stringify(profileData, null, 2), err => { // log profile data to a file
-            if (err) console.log("writeFile error on profileData.json: " + err)
+
+        // write profileData to json file
+        fs.writeFile("json/profileData.json", JSON.stringify(profileData, null, 2), err => {
+            if (err) throw new Error("writeFile error on profileData.json: " + err);
             else {
-                console.log("profileData.json created")
-                if (profileData.pinned) { // check if pinned object exists
-                    Object.keys(profileData.pinned).forEach(function(key) { // grab values of pinned object
+
+                // if profileData has object we need, get str of each repo
+                if (profileData.pinned) {
+                    Object.keys(profileData.pinned).forEach(function(key) {
                         var str = JSON.stringify(profileData.pinned[key]);
                         var repo = str.substring(str.lastIndexOf(url + "/"), str.lastIndexOf('"}'));
                         githubScraper(repo, function(err, repoData) {
-                            if (err) console.log("githubScraper error on repoData: " + err);
+                            if (err) throw new Error("githubScraper error on repoData: " + err);
                             else {
-                                fs.writeFile(repo + ".json", null, 2), err => {
-                                    if (err) console.log("writeFile error on repo.json:" + err);
-                                    else {
-                                        console.log(repo + ".json created");
-                                    }
-                                }
-                            }
+
+                                fs.writeFile("json/repos/" + repo.substring(10) + ".json", JSON.stringify(repoData, null, 2), err => {
+                                    if (err) throw new Error("writeFile error on repoData: " + err);
+                                });
+
+                            } // end else
                         });
                     });
                 }
-            }
+
+            } // end else
         });
-    }
+
+    } // end else
 });
