@@ -28,6 +28,8 @@ Do not use [GitHub Scraper](https://github.com/nelsonic/github-scraper) or [proj
 
 * `repo.substring(10)` removes the first 10 Characters from `var repo` which represent `var url + "/"` from earlier (*e.g. magarenzo/*)
 
+*[template.html](https://github.com/magarenzo/projectCarousel.js/blob/master/template.html)* provides a template to see how *displayProjects.js* works
+
 *[displayProject.js](https://github.com/magarenzo/projectCarousel.js/blob/master/displayProjects.js)* uses the repo data to display project information
 
 ## Created with
