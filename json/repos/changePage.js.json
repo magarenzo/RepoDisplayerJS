@@ -1,13 +1,13 @@
 {
   "url": "/magarenzo/changePage.js",
   "type": "repo",
-  "description": "Change \"page\" without reloading site",
+  "description": "Change page without reloading site",
   "website": "",
   "tags": "",
   "watchers": 0,
   "stars": 1,
   "forks": 0,
-  "commits": 17,
+  "commits": 19,
   "branches": 2,
   "releases": 0,
   "langs": [

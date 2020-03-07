@@ -1,13 +1,13 @@
 {
   "url": "/magarenzo/projectCarousel.js",
   "type": "repo",
-  "description": "Loop through public repositories associated with a GitHub user's profile",
+  "description": "Scrape data and loop through public repositories associated with a GitHub user's profile",
   "website": "",
   "tags": "",
   "watchers": 1,
   "stars": 1,
   "forks": 0,
-  "commits": 13,
+  "commits": 18,
   "branches": 1,
   "releases": 0,
   "langs": [
