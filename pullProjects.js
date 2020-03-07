@@ -18,16 +18,20 @@ githubScraper(url, function(err, profileData) {
                     Object.keys(profileData.pinned).forEach(function(key) {
                         var str = JSON.stringify(profileData.pinned[key]);
                         var repo = str.substring(str.lastIndexOf(url + "/"), str.lastIndexOf('"}'));
+
+                        // use str of repo name to grab that repo's data
                         githubScraper(repo, function(err, repoData) {
                             if (err) throw new Error("githubScraper error on repoData: " + err);
                             else {
 
+                                // write that repo's data to file
                                 fs.writeFile("json/repos/" + repo.substring(10) + ".json", JSON.stringify(repoData, null, 2), err => {
                                     if (err) throw new Error("writeFile error on repoData: " + err);
                                 });
 
                             } // end else
                         });
+
                     });
                 }
 
