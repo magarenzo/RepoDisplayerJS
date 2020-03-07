@@ -1,0 +1,16 @@
+{
+  "url": "/magarenzo/poker_hand_simulation.R",
+  "type": "repo",
+  "description": "Simulates poker hands and tracks simple pairings",
+  "website": "",
+  "tags": "",
+  "watchers": 1,
+  "stars": 3,
+  "forks": 0,
+  "commits": 7,
+  "branches": 1,
+  "releases": 0,
+  "langs": [
+    "R 100.0%"
+  ]
+}

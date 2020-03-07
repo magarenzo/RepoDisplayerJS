@@ -1,0 +1,17 @@
+{
+  "url": "/magarenzo/magarenzo.github.io",
+  "type": "repo",
+  "description": "Source for my current static website hosted at https://magarenzo.com",
+  "website": "",
+  "tags": "",
+  "watchers": 1,
+  "stars": 1,
+  "forks": 0,
+  "commits": 255,
+  "branches": 1,
+  "releases": 0,
+  "langs": [
+    "HTML 91.5%",
+    "JavaScript 4.8%"
+  ]
+}
