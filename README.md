@@ -1,6 +1,6 @@
 # projectCarousel.js
 
-Loop through public repositories associated with a GitHub user's profile
+Scrape data and loop through public repositories associated with a GitHub user's profile
 
 ---
 
