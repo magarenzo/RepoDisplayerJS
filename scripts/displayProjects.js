@@ -4,6 +4,6 @@ function displayProjects(id) {
 
     var html = "<p>test</p>";
 
-    div.innerHtml = html;
+    div.innerHTML = html;
 
 }
