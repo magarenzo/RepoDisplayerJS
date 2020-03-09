@@ -16,11 +16,11 @@ Do not use [GitHub Scraper](https://github.com/nelsonic/github-scraper) or [proj
 
 * Run `npm install github-scraper --save` to save [GitHub Scraper](https://github.com/nelsonic/github-scraper) to your `package.json`
 
-* Create `json` and `json/repos` dirs to store data grabbed from *pullProjects.js*  (or edit where data is stored in *[pullPrjoect.js](https://github.com/magarenzo/projectCarousel.js/blob/master/pullProjects.js)*)
+* Create `json` and `json/repos` dirs to store data grabbed from *pullProjects.js*  (or edit where data is stored in *[pullPrjoect.js](https://github.com/magarenzo/projectCarousel.js/blob/master/scripts/pullProjects.js)*)
 
 ## How it works
 
-*[pullPrjoect.js](https://github.com/magarenzo/projectCarousel.js/blob/master/pullProjects.js)* uses [GitHub Scraper](https://github.com/nelsonic/github-scraper) to get the pinned repos of the GitHub profile you specify in `var profileName`, and then uses [GitHub Scraper](https://github.com/nelsonic/github-scraper) again to get the data of each repo
+*[pullPrjoect.js](https://github.com/magarenzo/projectCarousel.js/blob/master/scripts/pullProjects.js)* uses [GitHub Scraper](https://github.com/nelsonic/github-scraper) to get the pinned repos of the GitHub profile you specify in `var profileName`, and then uses [GitHub Scraper](https://github.com/nelsonic/github-scraper) again to get the data of each repo
 
 * `profileData.pinned` contains pinned repo names of GitHub profile scraped
 
@@ -28,9 +28,9 @@ Do not use [GitHub Scraper](https://github.com/nelsonic/github-scraper) or [proj
 
 * `repo.substring(10)` removes the first 10 Characters from `var repo` which represent `var profileName + "/"` from earlier (*e.g. magarenzo/*)
 
-*[template.html](https://github.com/magarenzo/projectCarousel.js/blob/master/template.html)* provides a template to see how *displayProjects.js* works
+*[template.html](https://github.com/magarenzo/projectCarousel.js/blob/master/scripts/template.html)* provides a template to see how *displayProjects.js* works
 
-*[displayProject.js](https://github.com/magarenzo/projectCarousel.js/blob/master/displayProjects.js)* uses the repo data to display project information
+*[displayProject.js](https://github.com/magarenzo/projectCarousel.js/blob/master/scripts/displayProjects.js)* uses the repo data to display project information
 
 ## Created with
 
