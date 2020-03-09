@@ -1,4 +1,4 @@
-function displayProjects(id) {
+function projectCarousel(id) {
 
     var div = document.getElementById(id);
 
