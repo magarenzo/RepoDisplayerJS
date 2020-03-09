@@ -20,17 +20,17 @@ Do not use [GitHub Scraper](https://github.com/nelsonic/github-scraper) or [proj
 
 ## How it works
 
-*[pullPrjoect.js](https://github.com/magarenzo/projectCarousel.js/blob/master/scripts/pullProjects.js)* uses [GitHub Scraper](https://github.com/nelsonic/github-scraper) to get the pinned repos of the GitHub profile you specify in `var profileName`, and then uses [GitHub Scraper](https://github.com/nelsonic/github-scraper) again to get the data of each repo
+*[pullPrjoect.js](https://github.com/magarenzo/projectCarousel.js/blob/master/scripts/pullProjects.js)* uses [GitHub Scraper](https://github.com/nelsonic/github-scraper) to get the pinned repos of the GitHub profile you specify in `const profileName`, and then uses [GitHub Scraper](https://github.com/nelsonic/github-scraper) again to get the data of each repo
 
 * `profileData.pinned` contains pinned repo names of GitHub profile scraped
 
-* `var repo = str.substring(str.lastIndexOf(profileName + "/"), str.lastIndexOf('"}'));` grabs the repo name which exists in the String between `var profileName + "/"` (*e.g. magarenzo/*) and `"}`
+* `var repo = str.substring(str.lastIndexOf(profileName + "/"), str.lastIndexOf('"}'));` grabs the repo name which exists in the String between `const profileName + "/"` (*e.g. magarenzo/*) and `"}`
 
-* `repo.substring(10)` removes the first 10 Characters from `var repo` which represent `var profileName + "/"` from earlier (*e.g. magarenzo/*)
+* `repo.substring(10)` removes the first 10 Characters from `var repo` which represent `const profileName + "/"` from earlier (*e.g. magarenzo/*)
 
-*[template.html](https://github.com/magarenzo/projectCarousel.js/blob/master/scripts/template.html)* provides a template to see how *displayProjects.js* works
+*[template.html](https://github.com/magarenzo/projectCarousel.js/blob/master/scripts/template.html)* provides a template to see how *projectCarousel.js* works
 
-*[displayProject.js](https://github.com/magarenzo/projectCarousel.js/blob/master/scripts/displayProjects.js)* uses the repo data to display project information
+*[projectCarousel.js](https://github.com/magarenzo/projectCarousel.js/blob/master/scripts/projectCarousel.js)* uses the repo data to display project information
 
 ## Created with
 
