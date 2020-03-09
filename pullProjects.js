@@ -1,10 +1,10 @@
 const githubScraper = require("github-scraper");
 const fs = require("fs");
 
-var url = "magarenzo";
+var profileName = "magarenzo";
 
-// grab profileData of user specified in url
-githubScraper(url, function(err, profileData) {
+// grab profileData of user specified in profileName
+githubScraper(profileName, function(err, profileData) {
     if (err) throw new Error("githubScraper error on profileData: " + err);
     else {
 
@@ -17,7 +17,7 @@ githubScraper(url, function(err, profileData) {
                 if (profileData.pinned) {
                     Object.keys(profileData.pinned).forEach(function(key) {
                         var str = JSON.stringify(profileData.pinned[key]);
-                        var repo = str.substring(str.lastIndexOf(url + "/"), str.lastIndexOf('"}'));
+                        var repo = str.substring(str.lastIndexOf(profileName + "/"), str.lastIndexOf('"}'));
 
                         // use str of repo name to grab that repo's data
                         githubScraper(repo, function(err, repoData) {
