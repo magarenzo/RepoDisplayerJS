@@ -1,4 +1,4 @@
-# projectCarousel.js
+# projectCarousel.js &#127904;
 
 Scrape data and loop through pinned repositories listed on a GitHub user's profile
 
