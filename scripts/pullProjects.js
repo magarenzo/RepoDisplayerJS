@@ -1,7 +1,6 @@
 const githubScraper = require("github-scraper");
 const fs = require("fs");
-
-var profileName = "magarenzo";
+const profileName = "magarenzo";
 
 // grab profileData of user specified in profileName
 githubScraper(profileName, function(err, profileData) {
