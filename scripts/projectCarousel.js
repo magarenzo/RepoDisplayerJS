@@ -1,6 +1,6 @@
 function projectCarousel(id) {
 
-    var div = document.getElementById(id);
+    const div = document.getElementById(id);
 
     var html = "<p>test</p>";
 
