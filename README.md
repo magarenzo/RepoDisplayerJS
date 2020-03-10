@@ -30,7 +30,7 @@ Do not use [GitHub Scraper](https://github.com/nelsonic/github-scraper) or [proj
 
 *[projectCarousel.js](https://github.com/magarenzo/projectCarousel.js/blob/master/scripts/projectCarousel.js)* uses the repo data to display project information
 
-*[template.html](https://github.com/magarenzo/projectCarousel.js/blob/master/scripts/template.html)* provides a template to see how *projectCarousel.js* works
+*[template.html](https://github.com/magarenzo/projectCarousel.js/blob/master/scripts/template.html)* provides a template to see how *projectCarousel.js* works and is an example of how you can easily incorporate *[projectCarousel.js](https://github.com/magarenzo/projectCarousel.js/blob/master/scripts/projectCarousel.js)* into your web app
 
 ## Created with
 
