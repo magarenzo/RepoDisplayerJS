@@ -16,7 +16,7 @@ Do not use [GitHub Scraper](https://github.com/nelsonic/github-scraper) or [proj
 
 * Run `npm install github-scraper --save` to save [GitHub Scraper](https://github.com/nelsonic/github-scraper) to your `package.json`
 
-* Create `json` and `json/repos` dirs to store data grabbed from *pullProjects.js*  (or edit where data is stored in *[pullPrjoect.js](https://github.com/magarenzo/projectCarousel.js/blob/master/scripts/pullProjects.js)*)
+* Create `json` and `json/repos` dirs to store data grabbed from *[pullPrjoect.js](https://github.com/magarenzo/projectCarousel.js/blob/master/scripts/pullProjects.js)*  (or edit where data is stored in the script)
 
 ## How it works
 
