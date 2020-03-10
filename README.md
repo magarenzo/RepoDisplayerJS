@@ -28,9 +28,9 @@ Do not use [GitHub Scraper](https://github.com/nelsonic/github-scraper) or [proj
 
 * `repo.substring(10)` removes the first 10 Characters from `var repo` which represent `const profileName + "/"` from earlier (*e.g. magarenzo/*)
 
-*[template.html](https://github.com/magarenzo/projectCarousel.js/blob/master/scripts/template.html)* provides a template to see how *projectCarousel.js* works
-
 *[projectCarousel.js](https://github.com/magarenzo/projectCarousel.js/blob/master/scripts/projectCarousel.js)* uses the repo data to display project information
+
+*[template.html](https://github.com/magarenzo/projectCarousel.js/blob/master/scripts/template.html)* provides a template to see how *projectCarousel.js* works
 
 ## Created with
 
