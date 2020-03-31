@@ -36,6 +36,8 @@ Do not use [GitHub Scraper](https://github.com/nelsonic/github-scraper) or [proj
 
 * [JavaScript](https://www.javascript.com/)
 
+* [jQuery](https://jquery.com/)
+
 * [npm](https://www.npmjs.com/)
 
   * [GitHub Scraper](https://github.com/nelsonic/github-scraper)
