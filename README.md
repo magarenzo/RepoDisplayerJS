@@ -26,7 +26,7 @@ Do not use [GitHub Scraper](https://github.com/nelsonic/github-scraper) or [proj
 
 * `var repo = str.substring(str.lastIndexOf(profileName + "/"), str.lastIndexOf('"}'));` grabs the repo name which exists in the String between `const profileName + "/"` (*e.g. magarenzo/*) and `"}`
 
-* `repo.substring(10)` removes the first 10 Characters from `var repo` which represents `const profileName + "/"` from earlier, e.g. *magarenzo/* (make sure to change 10 to the number that represents the length of your `const profileName + "/"`)
+* `repo.substring(10)` removes the first 10 Characters from `var repo` which represents `const profileName + "/"` from earlier, e.g. magarenzo/ (make sure to change 10 to the number that represents the length of your `const profileName + "/"`)
 
 *[projectCarousel.js](https://github.com/magarenzo/projectCarousel.js/blob/master/scripts/projectCarousel.js)* uses the repo data to display project information
 
