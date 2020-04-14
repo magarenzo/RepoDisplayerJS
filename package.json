@@ -1,22 +1,22 @@
 {
-  "name": "project-carousel",
-  "version": "1.0.0",
-  "description": "Loop through public repositories associated with a GitHub user's profile",
-  "main": "displayProjects.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/magarenzo/projectCarousel.js.git"
-  },
-  "author": "Michael A. Agarenzo <magarenzo.com> (https://magarenzo.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/magarenzo/projectCarousel.js/issues"
-  },
-  "homepage": "https://github.com/magarenzo/projectCarousel.js#readme",
-  "dependencies": {
-    "github-scraper": "^6.8.0"
-  }
+    "name": "project-carousel",
+    "version": "1.0.0",
+    "description": " crape data and loop through pinned repositories listed on a GitHub user's profile",
+    "main": "projectCarousel.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/magarenzo/projectCarousel.js.git"
+    },
+    "author": "Michael A. Agarenzo <magarenzo.com> (https://magarenzo.com)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/magarenzo/projectCarousel.js/issues"
+    },
+    "homepage": "https://github.com/magarenzo/projectCarousel.js#readme",
+    "dependencies": {
+        "github-scraper": "^6.8.0"
+    }
 }
