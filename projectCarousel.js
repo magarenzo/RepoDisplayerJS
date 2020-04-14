@@ -5,11 +5,6 @@
 
 function projectCarousel(id) {
 
-    $.ajax({
-        type: "Post",
-        url: "/test.py"
-    }).done(function() {
-        document.getElementById(id).innerHTML = "<p>Done executing test.py</p>";
-    });
+    document.getElementById(id).innerHTML = "<p>test</p>";
 
 }
