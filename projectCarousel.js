@@ -5,6 +5,6 @@
 
 function projectCarousel(id) {
 
-    document.getElementById(id).innerHTML = "<p>test</p>";
+    document.getElementById(id).innerHTML = "<p>test</p>"
 
 }
