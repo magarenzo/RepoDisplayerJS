@@ -1,10 +1,10 @@
 # &#127904; projectCarousel.js
 
-Scrape data and loop through pinned repositories listed on a GitHub user's profile
+Fetch data and display repositories listed on a GitHub user's profile
 
-## TODO
+## Workflow
 
-Everything
+TBD
 
 ## Owner
 
