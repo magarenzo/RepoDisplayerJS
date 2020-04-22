@@ -1,7 +1,5 @@
 # gitHubRepoDisplayer.js
 
-Fetch repositories listed on a GitHub user's profile and display it via HTML
-
 ![Screenshot of gitHubRepoDisplayer.js in action](gitHubRepoDisplayer.png)
 
 ## About
