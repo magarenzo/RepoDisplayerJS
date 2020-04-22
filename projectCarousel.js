@@ -48,7 +48,7 @@ function projectCarousel(id) {
                         var description = JSON.stringify(jsonObject[key].description).split('"').join("");
                         var language = JSON.stringify(jsonObject[key].language).split('"').join("");
 
-                        div.innerHTML += "<h3><a target='_blank' href='" + url + "'>" + name + "</a></h3>";
+                        div.innerHTML += "<h3><a href='" + url + "' target='_blank'>" + name + "</a></h3>";
                         div.innerHTML += "<p><em>" + description + "</em>. <strong>" + language + "</strong>.</p><br>";
                         /**
                          * Alter the HTML according to how you want to display the projects
