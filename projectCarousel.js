@@ -12,7 +12,7 @@ function projectCarousel(id) {
     const profileName = "magarenzo";
     const skippedProjects = ["magarenzo.github.io-Blog", "magarenzo.github.io-Old"];
     /**
-     * Update the values of skippedProject to any repositories you want to skip, otherwise leave the array empty
+     * Update the values of skippedProjects to any repositories you want to skip, otherwise leave the array empty
      * CHANGE ABOVE
      */
 
