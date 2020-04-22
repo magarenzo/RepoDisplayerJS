@@ -2,19 +2,19 @@
 
 Fetch data and display repositories listed on a GitHub user's profile
 
+![Screenshot of projectCarousel.js in action](projectCarousel.PNG)
+
 ## About
 
 I realized how silly it was that I was manually updating the "Projects" section of my website, meanwhile I was always updating according to the progress of the repositories I was working on, which are publically displayed on my GitHub profile.
 
-I wanted to implement a simple script that can be included in your HTML page which will grab your GitHub profile's public repositories and format important information into a `<div>` of your choosing, so that's what I did. I used GitHub's [REST API v3](https://developer.github.com/v3/) to request the repositories on the client side of the HTML page's vistor.
+I wanted to implement a simple script that can be included in my HTML page which will grab my GitHub profile's public repositories and format important information into a `<div>` of my choosing, so that's what I did. I used GitHub's [REST API v3](https://developer.github.com/v3/) to request the repositories on the client side of the HTML page's vistor.
 
 ## How it works
 
 ```html
 <body onload="projectCarousel('projects')">
 
-    <h1>projectCarousel.js</h1><br>
-    <h2>Projects</h2><br>
     <div id="projects"></div>
 
     <!-- Include projectCarousel.js -->
