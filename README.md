@@ -1,6 +1,6 @@
 # gitHubRepoDisplayer.js
 
-![Screenshot of gitHubRepoDisplayer.js in action](gitHubRepoDisplayer.png)
+![Screenshot of gitHubRepoDisplayer.js in action](gitHubRepoDisplayer2.png)
 
 ## About
 
