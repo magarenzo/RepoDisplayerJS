@@ -42,7 +42,7 @@ function projectCarousel(id) {
 
                         /**
                          * CHANGE BELOW
-                         * Capture whichever values you want to use by their key
+                         * Capture whichever values you want to use by their keys
                          */
                         var url = JSON.stringify(jsonObject[key].html_url).split('"').join("");
                         var description = JSON.stringify(jsonObject[key].description).split('"').join("");
