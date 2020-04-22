@@ -1,4 +1,4 @@
-# &#127904; gitHubRepoDisplayer.js
+# gitHubRepoDisplayer.js
 
 Fetch repositories listed on a GitHub user's profile and display it via HTML
 
