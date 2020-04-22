@@ -2,7 +2,7 @@
 
 Fetch repositories listed on a GitHub user's profile and display it via HTML
 
-![Screenshot of projectCarousel.js in action](projectCarousel.PNG)
+![Screenshot of projectCarousel.js in action](projectCarousel.png)
 
 ## About
 
