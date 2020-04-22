@@ -1,6 +1,6 @@
 # &#127904; projectCarousel.js
 
-Fetch data and display repositories listed on a GitHub user's profile
+Fetch repositories listed on a GitHub user's profile and display it via HTML
 
 ![Screenshot of projectCarousel.js in action](projectCarousel.PNG)
 
