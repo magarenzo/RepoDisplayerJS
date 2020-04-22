@@ -3,7 +3,7 @@
  * @param {String} id
  */
 
-function projectCarousel(id) {
+function gitHubRepoDisplayer(id) {
 
     /**
      * CHANGE BELOW

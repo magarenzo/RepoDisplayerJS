@@ -1,35 +1,35 @@
-# &#127904; projectCarousel.js
+# &#127904; gitHubRepoDisplayer.js
 
 Fetch repositories listed on a GitHub user's profile and display it via HTML
 
-![Screenshot of projectCarousel.js in action](projectCarousel.png)
+![Screenshot of gitHubRepoDisplayer.js in action](gitHubRepoDisplayer.png)
 
 ## About
 
 I realized how silly it was that I was manually updating the "Projects" section of my website, meanwhile I was always updating according to the progress of the repositories I was working on, which are publically displayed on my GitHub profile.
 
-I wanted to implement a simple script that can be included in my HTML page which will grab my GitHub profile's public repositories and format important information into a `<div>` of my choosing, so that's what I did. I used GitHub's [REST API v3](https://developer.github.com/v3/) to request the repositories on the client side of the HTML page's vistor.
+I wanted to implement a simple script that can be included in my HTML page which will grab my GitHub profile's public repositories and format important information into a `<div>` of my choosing, so that's what I did. I used [GitHub's REST API v3](https://developer.github.com/v3/) to request the repositories on the client side of the HTML page's vistor.
 
 Now my website's "Projects" section automatically updates if I push a new public repository to GitHub, or if I update the description of one of my existing repositories, etc.
 
 ## How it works
 
 ```html
-<body onload="projectCarousel('projects')">
+<body onload="gitHubRepoDisplayer('projects')">
 
     <div id="projects"></div>
 
-    <!-- Include projectCarousel.js -->
-    <script src="/projectCarousel.js"></script>
+    <!-- Include gitHubRepoDisplayer.js -->
+    <script src="/gitHubRepoDisplayer.js"></script>
 
 </body>
 ```
 
-1. Use the `onload` event to execute the `projectCarousel()` function immediately after your HTML page's `<body>` loads
+1. Use the `onload` event to execute the `gitHubRepoDisplayer()` function immediately after your HTML page's `<body>` loads
 
 2. In the function call, include the `id` of the `<div>` you want to write the pulled repositories to, which in my case is "projects"
 
-3. Include the script where the `projectCarousel()` function lies at the end of your `<body>`, which in my case is `/projectCarousel.js`
+3. Include the script where the `gitHubRepoDisplayer()` function lies at the end of your `<body>`, which in my case is `/gitHubRepoDisplayer.js`
 
 ```javascript
 const profileName = "magarenzo";
@@ -134,6 +134,8 @@ watchers_count: {Number}
 ```
 
 ## Created with
+
+* [GitHub's REST API v3](https://developer.github.com/v3/)
 
 * [JavaScript](https://www.javascript.com/)
 
