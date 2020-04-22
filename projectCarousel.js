@@ -18,8 +18,8 @@ function projectCarousel(id) {
 
     const div = document.getElementById(id);
 
-    // Continue if the ID of the Div we are writing to is valid
-    if (div != null) {
+    // Continue if we captured a Div specified by the passed-in ID
+    if (div) {
 
         fetch("https://api.github.com/users/" + profileName + "/repos").then((response) => {
 
@@ -29,8 +29,9 @@ function projectCarousel(id) {
 
             for (var key in jsonObject) {
 
-                // Continue if every value exists
+                // Continue if every value we want exists
                 if (jsonObject[key].name &&
+                    jsonObject[key].html_url &&
                     jsonObject[key].description &&
                     jsonObject[key].language) {
 
@@ -39,10 +40,20 @@ function projectCarousel(id) {
                     // Continue if we want to include the current project
                     if (!skippedProjects.includes(name)) {
 
+                        /**
+                         * CHANGE BELOW
+                         * Capture whichever values you want to use by their key
+                         */
+                        var url = JSON.stringify(jsonObject[key].html_url).split('"').join("");
                         var description = JSON.stringify(jsonObject[key].description).split('"').join("");
                         var language = JSON.stringify(jsonObject[key].language).split('"').join("");
 
-                        div.innerHTML += "<h3>" + name + "</h3> <p>" + description + ". <em>" + language + "</em>.</p><br>";
+                        div.innerHTML += "<h3><a target='_blank' href='" + url + "'>" + name + "</a></h3>";
+                        div.innerHTML += "<p><em>" + description + "</em>. <strong>" + language + "</strong>.</p><br>";
+                        /**
+                         * Alter the HTML according to how you want to display the projects
+                         * CHANGE ABOVE
+                         */
 
                     }
 
