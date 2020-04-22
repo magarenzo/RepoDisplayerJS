@@ -1,7 +1,5 @@
 # gitHubRepoDisplayer.js
 
-![Screenshot of gitHubRepoDisplayer.js in action](gitHubRepoDisplayer.png)
-
 ## About
 
 I realized how silly it was that I was manually updating the "Projects" section of my website, meanwhile I was always updating according to the progress of the repositories I was working on, which are publically displayed on my GitHub profile.
