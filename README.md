@@ -51,7 +51,7 @@ div.innerHTML += "<p><em>" + description + "</em>. <strong>" + language + "</str
 
 ## Values
 
-Here are the values you can expect per each `jsonObject` pulled from the GitHub `profileName` specified in the API request
+As of May 2020, here are the values you can expect per each `jsonObject` pulled from the GitHub `profileName` specified in the API request
 
 ```json
 archive_url: "{String}"
