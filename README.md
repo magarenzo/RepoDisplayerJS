@@ -2,11 +2,11 @@
 
 ## About RepoDisplayerJS
 
-I realized how silly it was that I was manually updating the "Projects" section of my website, meanwhile I was always updating according to the progress of the repositories I was working on, which are publically displayed on my GitHub profile.
+I realized how silly it was that I was manually updating the "Projects" section of my website, meanwhile I was always updating according to the progress of the repositories I was working on, which are publically displayed on my GitHub profile
 
-I wanted to implement a simple script that can be included in my HTML page which will grab my GitHub profile's public repositories and format important information into a `<div>` of my choosing, so that's what I did. I used [GitHub's REST API v3](https://developer.github.com/v3/) to request the repositories on the client side of the HTML page's visitor.
+I wanted to implement a simple script that can be included in my HTML page which will grab my GitHub profile's public repositories and format important information into a `<div>` of my choosing, so that's what I did. I used [GitHub's REST API v3](https://developer.github.com/v3/) to request the repositories on the client side of the HTML page's visitor
 
-Now my website's "Projects" section automatically updates if I push a new public repository to GitHub, or if I update the description of one of my existing repositories, etc.
+Now my website's "Projects" section automatically updates if I push a new public repository to GitHub, or if I update the description of one of my existing repositories, and more
 
 ## How it works
 
