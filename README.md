@@ -1,6 +1,6 @@
-# gitHubRepoDisplayer.js
+# RepoDisplayerJS
 
-![Screenshot of gitHubRepoDisplayer.js in action](gitHubRepoDisplayer.png)
+![Screenshot of RepoDisplayerJS in action](RepoDisplayerJS.png)
 
 ## About
 
@@ -13,21 +13,21 @@ Now my website's "Projects" section automatically updates if I push a new public
 ## How it works
 
 ```html
-<body onload="gitHubRepoDisplayer('projects')">
+<body onload="repoDisplayer('projects')">
 
     <div id="projects"></div>
 
-    <!-- Include gitHubRepoDisplayer.js -->
-    <script src="/gitHubRepoDisplayer.js"></script>
+    <!-- Include RepoDisplayerJS -->
+    <script src="/repoDisplayer.js"></script>
 
 </body>
 ```
 
-1. Use the `onload` event to execute the `gitHubRepoDisplayer()` function immediately after your HTML page's `<body>` loads
+1. Use the `onload` event to execute the `repoDisplayer()` function immediately after your HTML page's `<body>` loads
 
 2. In the function call, include the `id` of the `<div>` you want to write the pulled repositories to, which in my case is "projects"
 
-3. Include the script where the `gitHubRepoDisplayer()` function lies at the end of your `<body>`, which in my case is `/gitHubRepoDisplayer.js`
+3. Include the script where the `repoDisplayer()` function lies at the end of your `<body>`, which in my case is `/repoDisplayer.js`
 
 ```javascript
 const profileName = "magarenzo";
