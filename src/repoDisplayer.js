@@ -3,7 +3,7 @@
  * @param {String} id
  */
 
-function gitHubRepoDisplayer(id) {
+function repoDisplayer(id) {
 
     /**
      * CHANGE BELOW
