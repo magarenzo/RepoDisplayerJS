@@ -131,7 +131,7 @@ watchers: {Number}
 watchers_count: {Number}
 ```
 
-## Created with
+## Dependencies
 
 * [GitHub's REST API v3](https://developer.github.com/v3/)
 
