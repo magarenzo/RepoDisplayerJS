@@ -36,6 +36,8 @@ const skippedProjects = ["magarenzo.github.io-Blog", "magarenzo.github.io-Old"];
 
 2. Update the values of `skippedProjects` to any repositories you want to skip, otherwise leave the array empty
 
+3. (Optional) Are you unlike me, and it would be more convenient to specify which repos to *include* rather than *exclude*? Then just remove the `!` from line 41 of `/src/repoDisplayer.js` so that it reads `if (skippedProjects.includes(name)) {` rather than `if (!skippedProjects.includes(name)) {`
+
 ```javascript
 var url = JSON.stringify(jsonObject[key].html_url).split('"').join("");
 var description = JSON.stringify(jsonObject[key].description).split('"').join("");
