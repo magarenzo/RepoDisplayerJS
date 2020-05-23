@@ -1,6 +1,6 @@
 # RepoDisplayerJS
 
-![Screenshot of RepoDisplayerJS in action](RepoDisplayerJS.png)
+![Screenshot of RepoDisplayerJS in action](/media/RepoDisplayerJS.png)
 
 ## About
 
@@ -18,7 +18,7 @@ Now my website's "Projects" section automatically updates if I push a new public
     <div id="projects"></div>
 
     <!-- Include RepoDisplayerJS -->
-    <script src="/repoDisplayer.js"></script>
+    <script src="/src/repoDisplayer.js"></script>
 
 </body>
 ```
