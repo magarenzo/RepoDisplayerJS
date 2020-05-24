@@ -62,8 +62,6 @@ The values you can expect per each `jsonObject` pulled from the GitHub `profileN
 
 * [GitHub's REST API v3](https://developer.github.com/v3/)
 
-* [JavaScript](https://www.javascript.com/)
-
 ## Owner
 
 Michael A. Agarenzo
