@@ -11,13 +11,12 @@ function repoDisplayer(id) {
      */
     const profileName = "magarenzo";
     const skippedProjects = ["magarenzo.github.io-Blog", "magarenzo.github.io-Old"];
+    const errorString = "<p>Check out all of projects <a href='https://github.com/" + profileName + "?tab=repositories' target='_blank'>here</a> on my GitHub profile</p>";
     /**
      * Update the values of skippedProjects to any repositories you want to skip, otherwise leave the array empty
+     * Update the value of errorString to whatever you want to print to the specified Div if we run into an issue with the API or the returned JSON object
      * CHANGE ABOVE
      */
-
-    // String printed to specified Div if we run into an issue with the API
-    const errorString = "<p>Check out all of projects <a href='https://github.com/" + profileName + "?tab=repositories' target='_blank'>here</a> on my GitHub profile</p>";
 
     const div = document.getElementById(id);
 
