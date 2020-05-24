@@ -23,7 +23,7 @@ Now my website's "Projects" section automatically updates if I push a new public
 
 1. Use the `onload` event to execute the `repoDisplayer()` function immediately after your HTML page's `<body>` loads
 
-2. In the function call, include the `id` of the `<div>` you want to write the pulled repositories to, which in my case is "projects"
+2. In the function call, include the `id` of the `<div>` you want to write the pulled repositories to, which in my case is `projects`
 
 3. Include the script where the `repoDisplayer()` function lies at the end of your `<body>`, which in my case is `/src/repoDisplayer.js`
 
