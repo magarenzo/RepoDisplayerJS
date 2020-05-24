@@ -16,12 +16,20 @@ function repoDisplayer(id) {
      * CHANGE ABOVE
      */
 
+    // String printed to specified Div if we run into an issue with the API
+    const errorString = "<p>Check out all of projects <a href='https://github.com/" + profileName + "?tab=repositories' target='_blank'>here</a> on my GitHub profile</p>";
+
     const div = document.getElementById(id);
 
     // Continue if we captured a Div specified by the passed-in ID
     if (div) {
 
         fetch("https://api.github.com/users/" + profileName + "/repos").then((response) => {
+
+            // If the API's response is anything other than successful, print the error string to the specified Div
+            if (response.status != 200) {
+                div.innerHTML += errorString;
+            }
 
             return response.json()
 
@@ -60,6 +68,11 @@ function repoDisplayer(id) {
                 }
 
             }
+
+        }).catch(function() {
+
+            // If an error is thrown working with the JSON object, catch it and print the error string to the specified Div
+            div.innerHTML += errorString;
 
         });
 
