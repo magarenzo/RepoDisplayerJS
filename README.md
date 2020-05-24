@@ -60,7 +60,7 @@ The values you can expect per each `jsonObject` pulled from the GitHub `profileN
 
 ## Dependency
 
-* [GitHub's REST API v3](https://developer.github.com/v3/)
+[GitHub's REST API v3](https://developer.github.com/v3/)
 
 ## Owner
 
