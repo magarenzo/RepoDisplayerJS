@@ -58,7 +58,7 @@ div.innerHTML += "<p><em>" + description + "</em>. <strong>" + language + "</str
 
 The values you can expect per each `jsonObject` pulled from the GitHub `profileName` specified in the API request can be seen under [Response](https://developer.github.com/v3/repos/#response) in the docs for [GitHub's REST API v3](https://developer.github.com/v3/)
 
-## Dependencies
+## Dependency
 
 * [GitHub's REST API v3](https://developer.github.com/v3/)
 
