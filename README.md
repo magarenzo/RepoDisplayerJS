@@ -1,4 +1,4 @@
-# ![Screenshot of RepoDisplayerJS in action](/media/RepoDisplayerJS.png)
+# ![Screenshot of RepoDisplayerJS in action](/media/RepoDisplayerJS_1.0.png)
 
 ## About RepoDisplayerJS
 
