@@ -1,5 +1,9 @@
 # ![Screenshot of RepoDisplayerJS in action](/media/RepoDisplayerJS_1.0.png)
 
+## Demo
+
+https://magarenzo.com/projects/RepoDisplayerJS/
+
 ## About RepoDisplayerJS
 
 I realized how silly it was that I was manually updating the "Projects" section of my website, meanwhile I was always updating according to the progress of the repositories I was working on, which are publically displayed on my GitHub profile
