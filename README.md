@@ -66,6 +66,14 @@ The values you can expect per each `jsonObject` pulled from the GitHub `profileN
 
 [GitHub's REST API v3](https://developer.github.com/v3/)
 
+## Known Public Usage
+
+* [magarenzo.com/projects](https://magarenzo.com/projects/)
+
+* [SygWave](https://sygwave.github.io)
+
 ## Owner
 
 Michael A. Agarenzo
+
+<a class="social" href="https://www.buymeacoffee.com/magarenzo" target="_blank"><img alt="Buy Me A Coffee" src="/images/icon-coffee.png" width="25" height="25"></a>
