@@ -75,5 +75,3 @@ The values you can expect per each `jsonObject` pulled from the GitHub `profileN
 ## Owner
 
 Michael A. Agarenzo
-
-[&#127867; Buy me a cider, or three!](https://www.buymeacoffee.com/magarenzo)
