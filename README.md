@@ -2,7 +2,7 @@
 
 ## Demo
 
-https://magarenzo.com/projects/RepoDisplayerJS/
+[magarenzo.com/projects/RepoDisplayerJS/](https://magarenzo.com/projects/RepoDisplayerJS/)
 
 ## About RepoDisplayerJS
 
