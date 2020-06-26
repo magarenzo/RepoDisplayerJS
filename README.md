@@ -76,4 +76,4 @@ The values you can expect per each `jsonObject` pulled from the GitHub `profileN
 
 Michael A. Agarenzo
 
-<a class="social" href="https://www.buymeacoffee.com/magarenzo" target="_blank"><img alt="Buy Me A Coffee" src="https://magarenzo.com/images/icon-buy-me-a-coffee.webpg" width="25" height="25"></a>
+<a class="social" href="https://www.buymeacoffee.com/magarenzo" target="_blank"><img alt="Buy Me A Coffee" src="https://magarenzo.com/images/icon-buy-me-a-coffee.webp" width="25" height="25"></a>
