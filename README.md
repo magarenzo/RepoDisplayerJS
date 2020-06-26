@@ -66,9 +66,9 @@ The values you can expect per each `jsonObject` pulled from the GitHub `profileN
 
 [GitHub's REST API v3](https://developer.github.com/v3/)
 
-## Known Public Usage
+## Used By
 
-* [magarenzo.com/projects](https://magarenzo.com/projects/)
+* [magarenzo.com/projects/](https://magarenzo.com/projects/)
 
 * [SygWave](https://sygwave.github.io)
 
@@ -76,4 +76,4 @@ The values you can expect per each `jsonObject` pulled from the GitHub `profileN
 
 Michael A. Agarenzo
 
-<a href="https://www.buymeacoffee.com/magarenzo" target="_blank"><img src="https://magarenzo.com/images/icon-buy-me-a-coffee.webp" alt="Buy Me A Coffee" width="200" height="50"></a>
+[&#127867; Buy me a cider, or three!](https://www.buymeacoffee.com/magarenzo)
