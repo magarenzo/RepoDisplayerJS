@@ -64,7 +64,7 @@ The values you can expect per each `jsonObject` pulled from the GitHub `profileN
 
 ## Used By
 
-* [magarenzo.com/projects/](https://magarenzo.com/projects/)
+* [magarenzo.com](https://magarenzo.com)
 
 * [SygWave](https://sygwave.github.io)
 
