@@ -2,7 +2,6 @@
  * Fetch repositories listed on a GitHub user's profile and display them via HTML
  * @param {String} id
  **/
-
 function repoDisplayer(id) {
     // Update the value of profileName to your GitHub username
     const profileName = "magarenzo";
