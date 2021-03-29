@@ -20,10 +20,8 @@ The values you can expect per each `jsonObject` pulled from the GitHub `profileN
 
 ## Used By
 
-* [magarenzo.com](https://magarenzo.com)
-
-* [SygWave](https://sygwave.github.io)
+[SygWave](https://sygwave.github.io)
 
 ## Owner
 
-[Michael A. Agarenzo](https://magarenzo.com)
+[Michael A.](https://linkedin.com/in/magarenzo)
