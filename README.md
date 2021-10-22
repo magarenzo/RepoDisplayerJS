@@ -24,4 +24,4 @@ The values you can expect per each `jsonObject` pulled from the GitHub `profileN
 
 ## Owner
 
-[Michael A.](https://linkedin.com/in/magarenzo)
+[Michael Agarenzo](https://linkedin.com/in/magarenzo)
